@@ -1,0 +1,10 @@
+#google-logo {
+    display: block;
+    margin: 20% auto 1% auto;       /* center image */
+}
+
+#searchbar {
+    display: block;
+    margin: 0% auto 1% auto;        /* center searchbar under google logo */
+}
+
