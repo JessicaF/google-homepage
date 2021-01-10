@@ -44,7 +44,7 @@ li {
 
 a {
     display: block;                /* allows us to specify padding, height, width, margins, etc */
-    padding: 12px;
+    padding: 10px;
     font-family: arial, sans-serif;
     font-size: 13px;
     color: #000;
@@ -61,14 +61,37 @@ a:visited {
 } 
 
 #footer {
+    /* fixed footer navigation */
     background-color: #f2f2f2;
     overflow: hidden;
     position: fixed;
     bottom: 0;
     width: 100%;
+    /* add border line */
+    border-top: 1px solid rgb(211, 209, 209);
+    /* get rid of white space on left side */
+    left:0px;
+}
+
+hr {
+    border-top: 1px solid rgb(211, 209, 209);
 }
 
 .footer-left {
     float: left;
+}
+
+#footer p {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    padding: 0 0 0 23px;
+}
+
+#footer a {
+    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    padding: 0 16px 16px 16px;
 }
 
